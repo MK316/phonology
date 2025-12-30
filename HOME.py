@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.title("🐳 English Linguistics Study Lab: Phonetics, Phonology & Morphology Study Guides")
+st.markdown("#### 🐳 English Linguistics Study Lab: ")
+st.markdown("#### Phonetics, Phonology & Morphology Study Guides")
