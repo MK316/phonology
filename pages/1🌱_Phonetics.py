@@ -10,7 +10,7 @@ st.write(
 st.markdown("---")
 
 st.markdown(
-    "### 1. **Foundational reading")
+    "### 1. Foundational reading")
 st.caption("Work through the selected chapters in the textbook below, "
     "emphasizing comprehension of core ideas."
 )
