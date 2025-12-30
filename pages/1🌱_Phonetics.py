@@ -22,3 +22,14 @@ st.markdown("""📍Notes:
 2. Each chapter highlights key terms. As you read, I recommend briefly considering why these terms are highlighted. Some of them represent core concepts and should be studied with careful attention to their definitions and examples.
 """)
 
+st.markdown("""
+| Chapter | Topic                         | File |
+|--------|-------------------------------|------|
+| 1      | Articulation and Acoustics     | [PDF](https://drive.google.com/file/d/1F6ZDp-AHFPRB7mjj9SsVjA1bMd2kpjWM/view?usp=sharing)  |
+| 2      | Phonology and Phonetic Transcription                 | PDF  |
+| 3      | The Consonants of English                  | PDF  |
+| 4      | English Vowels                        | PDF  |
+| 5      | English Words and Sentences         | PDF  |
+""")
+
+
