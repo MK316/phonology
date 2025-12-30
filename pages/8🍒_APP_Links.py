@@ -12,10 +12,16 @@ st.markdown(
     margin: 6px 10px 6px 0;
     font-size: 16px;
     font-weight: 600;
-    color: white;
     text-decoration: none;
     border-radius: 8px;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+
+/* Force white text in all states */
+.link-button,
+.link-button:visited,
+.link-button:active {
+    color: white !important;
 }
 
 /* Button colors */
@@ -23,10 +29,10 @@ st.markdown(
 .btn-green { background-color: #2ca02c; }
 .btn-orange { background-color: #ff7f0e; }
 
-/* Hover effect */
+/* Hover: yellow background, black text */
 .link-button:hover {
-    background-color: #FFD700;  /* yellow */
-    color: black;
+    background-color: #FFD700;
+    color: black !important;
 }
 </style>
 
