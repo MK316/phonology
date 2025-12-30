@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("#### Phonetics Study Guide")
+st.markdown("### Phonetics Study Guide")
 st.write(
     "This section provides a study guide for English phonetics. "
     "A solid foundation in phonetics is essential for approaching phonology "
@@ -10,7 +10,7 @@ st.write(
 st.markdown("---")
 
 st.markdown(
-    "### 1. Foundational reading")
+    "#### 1. Foundational reading")
 st.caption("Work through the selected chapters in the textbook below, "
     "emphasizing comprehension of core ideas."
 )
