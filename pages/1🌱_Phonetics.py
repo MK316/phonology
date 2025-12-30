@@ -14,12 +14,11 @@ st.markdown(
     "emphasizing comprehension of core ideas."
 )
 
-st.write("📗 **Textbook 1:** *A Course in Phonetics*")
+st.write("📗 **Textbook 1:** *A Course in Phonetics (7th edition)*")
 
-notes = (
-    "📍 **Notes:**\n\n"
-    "1. You'll need a passcode to open each PDF file.\n"
-    "2. Each chapter highlights key terms. As you read, we recommend briefly considering why these terms are highlighted. "
-    "Some of them represent core concepts and should be studied with careful attention to their definitions and examples."
-)
-st.markdown(notes)
+st.markdown("""📍Notes:
+
+1. You'll need a passcode to open each PDF file.
+2. Each chapter highlights key terms. As you read, we recommend briefly considering why these terms are highlighted. Some of them represent core concepts and should be studied with careful attention to their definitions and examples.
+""")
+
