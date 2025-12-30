@@ -1,7 +1,7 @@
 import streamlit as st
 
 tab1, tab2, tab3, tab4 = st.tabs(
-    ["📘 Basic readings", "🍰 TBA", "🍰 TBA", "🍰 Practice"]
+    ["📘 Basic readings", "🍰 TBA", "🍰 TBA", "🍰 Practice"])
 
 with tab1:
     
