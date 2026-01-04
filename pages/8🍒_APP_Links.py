@@ -6,10 +6,14 @@ st.write("https://apps4u.streamlit.app")
 st.markdown(
     """
 <style>
+.link-block {
+    margin-bottom: 14px;
+}
+
 .link-button {
     display: inline-block;
     padding: 12px 22px;
-    margin: 6px 10px 6px 0;
+    margin: 6px 0;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
@@ -34,17 +38,36 @@ st.markdown(
     background-color: #FFD700;
     color: black !important;
 }
+
+/* Description text */
+.link-desc {
+    margin-left: 6px;
+    font-size: 14px;
+    color: #555555;
+}
 </style>
 
+<div class="link-block">
+    <a class="link-button btn-blue"
+       href="https://apps4u.streamlit.app/Search:_Phonology_&_Morphology"
+       target="_blank">
+       📘 TCE Search (Phonetics & Phonology)
+    </a>
+    <div class="link-desc">
+        Search past TCE questions related to phonetics, phonology, and morphology.
+    </div>
+</div>
 
-
-<a class="link-button btn-blue" href="https://apps4u.streamlit.app/Search:_Phonology_&_Morphology" target="_blank">
-📘 TCE Search (Phonetics & Phonology)
-</a><br>
-
-<a class="link-button btn-green" href="https://apps4u.streamlit.app/Search:_Syntax_&_Semantics" target="_blank">
-📗 TCE Search (Syntax & Semantics)
-</a>
+<div class="link-block">
+    <a class="link-button btn-green"
+       href="https://apps4u.streamlit.app/Search:_Syntax_&_Semantics"
+       target="_blank">
+       📗 TCE Search (Syntax & Semantics)
+    </a>
+    <div class="link-desc">
+        Explore TCE questions focusing on syntax, semantics, and sentence structure.
+    </div>
+</div>
 
 """,
     unsafe_allow_html=True
