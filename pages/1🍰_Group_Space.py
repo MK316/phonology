@@ -1,19 +1,12 @@
 import streamlit as st
 
-st.write("Google sheet")
-
-
-import streamlit as st
-
 st.set_page_config(page_title="3 Tabs Example", layout="wide")
-
-st.title("📌 Study Group Page")
 
 tab1, tab2, tab3 = st.tabs(["🟦 Google Sheet", "🟩 TBA", "🟥 TBA"])
 
 with tab1:
-    st.markdown("### 📄 Shared Google Sheets for your study activities")
-
+    st.markdown("### Shared Google Sheets for your study activities")
+    
     st.link_button(
         label="📊 Open Google Sheet",
         url="https://docs.google.com/spreadsheets/d/11i6x_e7TDOpIdWqkmUzVnBKuHWkrjR24m_drYaRN7XI/edit?usp=sharing",
