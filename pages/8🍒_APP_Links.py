@@ -54,7 +54,7 @@ st.markdown(
        📘 TCE Search (Phonetics & Phonology)
     </a>
     <div class="link-desc">
-        Search past TCE questions related to phonetics, phonology, and morphology.
+        Search past TCE questions related to phonetics, phonology, and morphology (updated from 2005~2026).
     </div>
 </div>
 
@@ -65,7 +65,7 @@ st.markdown(
        📗 TCE Search (Syntax & Semantics)
     </a>
     <div class="link-desc">
-        Explore TCE questions focusing on syntax, semantics, and sentence structure.
+        Explore TCE questions focusing on English grammar, syntax, semantics, and pragmatics (since 2026.12.30).
     </div>
 </div>
 
